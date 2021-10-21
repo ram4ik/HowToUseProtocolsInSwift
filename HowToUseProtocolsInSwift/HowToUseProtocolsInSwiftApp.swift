@@ -11,7 +11,7 @@ import SwiftUI
 struct HowToUseProtocolsInSwiftApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ContentView(colorTheme: DefaultColorTheme())
         }
     }
 }
